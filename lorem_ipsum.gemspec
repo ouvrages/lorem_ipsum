@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{lorem_ipsum}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Darby"]
@@ -14,16 +14,22 @@ Gem::Specification.new do |s|
   s.email = %q{matt@protectedmethod.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.markdown"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.rdoc",
+     "README.markdown",
      "Rakefile",
      "VERSION",
-     "lib/lorem_ipsum.rb"
+     "init.rb",
+     "lib/lorem_ipsum.rb",
+     "lib/lorem_ipsum/base.rb",
+     "lib/lorem_ipsum/content.rb",
+     "lib/lorem_ipsum/railtie.rb",
+     "lorem_ipsum.gemspec",
+     "rails/init.rb"
   ]
   s.homepage = %q{http://github.com/ProtectedMethod/lorem_ipsum}
   s.rdoc_options = ["--charset=UTF-8"]
