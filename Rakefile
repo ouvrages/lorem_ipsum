@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "lorem_ipsum"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "matt@matt-darby.com"
-    gem.homepage = "http://github.com/mdarby/lorem_ipsum"
+    gem.summary = "A simple Lorem Ipsum generator for Rails3"
+    gem.description = "A simple Lorem Ipsum generator for Rails3"
+    gem.email = "matt@protectedmethod.com"
+    gem.homepage = "http://github.com/ProtectedMethod/lorem_ipsum"
     gem.authors = ["Matt Darby"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_development_dependency "cucumber", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
