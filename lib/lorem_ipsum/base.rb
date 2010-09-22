@@ -22,7 +22,8 @@ module LoremIpsum
     private
 
       def paragraph(num)
-        raise NoMasError, "Slow down cowboy, I only have 10 paragraphs!" if num > 10
+        count = Paragraphs.size
+        raise NoMasError, "Slow down cowboy, I only have #{count} paragraphs!" if num > count
         p = Paragraphs[0...num].join("</p></p>")
         "<p>#{p}</p>".html_safe
       end
