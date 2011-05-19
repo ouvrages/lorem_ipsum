@@ -42,4 +42,6 @@ module LoremIpsum
       end
 
   end
+  
+  include Base
 end
