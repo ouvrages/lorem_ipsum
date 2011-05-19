@@ -30,7 +30,7 @@ module LoremIpsum
 
       def sentence(num)
         s = Sentences[0...num].join('. ')
-        "<p>#{s}.</p>".html_safe
+        "#{s}.".html_safe
       end
 
       def word(num)
